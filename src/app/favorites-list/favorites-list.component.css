@@ -1,0 +1,15 @@
+
+
+    #list {
+        display: flex;
+    }
+
+    .favorite-card{
+        position: relative;
+        top: 50px;
+        flex-wrap: wrap;
+    }
+
+    * {
+        font-family:cursive !important; 
+      }
