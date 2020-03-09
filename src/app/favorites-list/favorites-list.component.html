@@ -1,0 +1,13 @@
+<mat-card id="main" style="height: 400px; width:800px">
+  <mat-list id="list">
+      <ng-container *ngFor="let item of weatherFavoriateList">
+        <mat-list-item >
+          <mat-card (click)="goToWeatherPage(item)" class="favorite-card">
+            <mat-card-title>{{item.cityName}}</mat-card-title>
+            <mat-card-subtitle> {{item.temperature}}{{item.unit}}</mat-card-subtitle>
+            <mat-card-content>{{item.weatherText}}</mat-card-content>
+          </mat-card> 
+        </mat-list-item>
+      </ng-container>  
+    </mat-list>
+</mat-card> 

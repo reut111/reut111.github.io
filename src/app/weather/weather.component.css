@@ -1,0 +1,25 @@
+.example-card {
+  position: relative;
+  top:150px;
+
+  }
+#list {
+  display: flex;
+}
+
+h4 {
+  text-align: center;
+  align-content: center;
+}
+
+div {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+* {
+  font-family:cursive !important; 
+}
